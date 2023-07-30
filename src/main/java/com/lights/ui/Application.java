@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan(basePackages = {"com.nike"}) // enables configuration from nike dependencies
+@ComponentScan(basePackages = {"com.lights"})
 public class Application {
 
 	public static void main(String[] args) {
